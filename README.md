@@ -8,7 +8,7 @@ Interactive web-based tool for experimenting with reinforcement learning algorit
 
 ```bash
 git clone https://github.com/Baher-Nader/RL-Tool.git
-cd RL-Tool
+cd rl-tool
 ```
 
 ### 2. Create Virtual Environment
