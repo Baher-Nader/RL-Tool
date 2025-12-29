@@ -7,7 +7,7 @@ Interactive web-based tool for experimenting with reinforcement learning algorit
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Baher-Nader/RL-Tool.git
 cd rl-tool
 ```
 
