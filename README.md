@@ -8,16 +8,30 @@ Interactive web-based tool for experimenting with reinforcement learning algorit
 
 ```bash
 git clone https://github.com/Baher-Nader/RL-Tool.git
-cd rl-tool
+cd RL-Tool
 ```
 
-### 2. Install Dependencies
+### 2. Create Virtual Environment
+
+**Windows:**
+```bash
+python -m venv myenv
+myenv\Scripts\activate
+```
+
+**Linux/Mac:**
+```bash
+python -m venv myenv
+source myenv/bin/activate
+```
+
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the Web Interface
+### 4. Run the Web Interface
 
 ```bash
 cd web/backend
@@ -26,7 +40,7 @@ python app.py
 
 The web interface will be available at: **http://localhost:5000**
 
-### 3. Use the Interface
+### 5. Use the Interface
 
 1. Open your browser and go to `http://localhost:5000`
 2. Select an environment (GridWorld, FrozenLake, CartPole, MountainCar)
